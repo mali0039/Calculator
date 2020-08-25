@@ -1,0 +1,56 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+}
+h1 {
+    color: #66fcf1;
+    text-align: center;
+}
+h3 {
+    border: 3px solid white;
+    color: #66FCF1;
+    width: 395px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+h3::placeholder {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+}
+#delete {
+    background-color: #F13C20;
+}
+#zero {
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+#clear {
+    grid-column-start:1;
+    grid-column-end: 3;
+    background-color: #C3073F
+}
+#container {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(5,100px);
+    justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    border-top: 0px;
+}
+button {
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #66FCF1;
+    border: 1px solid black;
+}
+.operations {
+    background-color: #45A29E;
+}
